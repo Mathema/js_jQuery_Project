@@ -27,3 +27,8 @@ body{
 .highlight{
   background-color: black;
 }
+.reset{
+  height: 50px;
+  width: 100px;
+  float: left;
+}

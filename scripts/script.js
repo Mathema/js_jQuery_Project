@@ -7,4 +7,7 @@ $(document).ready(function(){
   $('.block').on('mouseenter', function(){
     $(this).addClass('highlight');
   });
+  $('.reset').on('click', function(){
+    $('.block').removeClass('highlight');
+  })
 });
