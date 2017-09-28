@@ -7,29 +7,43 @@ body{
   position: absolute;
   width: 100%;
   min-width: 960px;
+  box-sizing: border-box;
+  background-color: #FFF8DC;
 }
+button{
 
+
+  width: 16em;
+  height: 5em;
+  margin: 1em;
+}
+#button-container{
+  position: absolute;
+  left: 3em;
+  top: 3em;
+  width: 15em;
+  height: 100%-3em;
+  background-color: #FFE4B5;
+}
 #grid{
   background-color: white;
-  height: 864px;
+  height: 98%;
   width: 960px;
   min-width: 960px;
   margin: 0 auto;
-  position: relative;
-
+  position:  relative;
+  top:0px;
   box-sizing: border-box;
 }
 .block{
   border: 1px black solid;
   display: inline-block;
-  
+
   box-sizing: border-box;
 }
 .highlight{
   background-color: black;
 }
 .reset{
-  height: 50px;
-  width: 100px;
-  float: left;
+
 }
