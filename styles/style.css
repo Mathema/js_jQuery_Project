@@ -20,23 +20,25 @@ button{
 #button-container{
   position: absolute;
   left: 3em;
-  top: 3em;
+  top: 10em;
   width: 15em;
   height: 100%-3em;
   background-color: #FFE4B5;
 }
 #grid{
   background-color: white;
-  height: 98%;
+  height: 90%;
   width: 960px;
   min-width: 960px;
   margin: 0 auto;
   position:  relative;
-  top:0px;
+  top: 2em;
+  left: 5em;
   box-sizing: border-box;
+
 }
 .block{
-  border: 1px black solid;
+  border: 1px #555 solid;
   display: inline-block;
 
   box-sizing: border-box;
@@ -46,4 +48,14 @@ button{
 }
 .reset{
 
+}
+#image{
+  width: 500px;
+  height: 100px;
+  position: absolute;
+  background-image: url("../images/etch.png");
+
+
+
+  float:left;
 }
